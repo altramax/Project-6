@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 92.5%;
+    background-color: #edfbfe;
+}
+
+.navigation{
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.navigation img{
+    width: 32%;
+    height: 1.2rem;
+    margin-top: 0.3rem;
+}
+
+.navigation button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: #ffffff;
+    border: none;
+    box-shadow:  2px 2px 1px 1px  #eeeeee;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navigation button:hover{
+    background-color: #fe52c0;
+    color: #ffffff;
+}
+
+.heading{  
+    width: 79%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headtext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.heading p{
+    text-align: center;
+    width: 93%;
+    padding-top: 1.5rem;
+    font-size: 1.07rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.heading button{
+    margin: 2rem 0;
+    padding: 0.5rem 3rem;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow:  2px 2px 1px 1px  #eeeeee;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.heading button:hover{
+    background-color: #fe52c0;
+    color: #ffffff;
+}
+
+.heading img{
+    width: 100%;
+    margin: 1rem 0; 
+    padding-bottom: 0.5rem; 
+}
+
+.boxes{
+    padding: 0 1rem;
+    padding-bottom: 15rem;
+    background-color: #ffffff;
+}
+
+.card{
+    margin-top: 2.5rem;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 5px  #eeeeee ;
+}
+
+.content{
+    text-align: center;
+    width: 72.2%;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h2{
+    padding: 1rem 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.shrink{
+    padding: 0 0.4rem;
+}
+
+.sml{
+    display: flex;
+    justify-content: center;
+}
+
+.smlcard{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    width: 94%;
+    border-radius: 1rem;
+    padding: 3rem 0 2.5rem 0;
+    position: absolute;
+    margin-top: -7rem;
+    box-shadow: inset 0px -2px 5px 1px  #eeeeee;
+}
+
+.smlcard h3{
+    font-size: 1.3rem;
+}
+
+.smlcard button{
+    margin-top: 1.5rem;
+    padding: 0.9rem 2.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow:  2px 2px 1px 1px  #eeeeee;;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.smlcard button:hover{
+    background-color: #fe52c0;
+    color: #ffffff;
+}
+
+.footer{
+    background-color: #00252e;
+    color: #ffffff;
+    padding: 7.5rem 1rem 0 1rem;
+}
+
+.huddle{
+    width: 10rem;
+    padding-bottom: 1.5rem;
+}
+
+.span{
+   width: 70%;
+}
+
+.details{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.logo{
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+
+.ink{
+ width: 13px;
+ height: 18px;
+}
+
+.info{
+    padding-bottom: 1rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.icon{
+    max-width: 1.8rem;
+    margin: 2.5rem 0.3rem 1.5rem 0.3rem;
+}
+
+.socials img{
+    width: 4rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    border: 0.009rem solid #ffffff;
+}
+
+.icon:hover{
+    background-color: #fe53c2;
+    border-color: #fe53c2;
+    cursor: pointer;
+}
+
+.copyrigth{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 720px) {
+
+    .navigation{
+        padding: 2rem 2rem;
+    }
+
+    .navigation img{
+        width: 32%;
+        height: 2rem;
+        margin-top: 0.3rem;
+    }
+
+    .navigation button{
+        padding: 0.8rem 2.5rem;
+        font-size: 0.8rem;
+    }
+
+    .headtext{
+        font-size: 2rem;
+    }
+
+    .heading p{
+        font-size: 1.2rem;
+    }
+
+    .heading button{
+        font-size: 1rem;
+        padding: 0.8rem 3rem;
+    }
+
+    .boxes{
+        padding: 0 2rem 15rem 2rem;
+    }
+
+    .card h2{
+       padding: 1rem 0;
+       font-size: 1.5rem;
+    }
+    
+    .card p{
+       font-size: 1.2rem;
+    }
+
+    .smlcard{
+        width:70%;
+        padding: 3rem 0;
+        font-size: 2rem; 
+    }
+
+    .sml button{
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+    }
+
+    .footer{
+        font-size: 1.2rem;
+        padding: 8rem 1.5rem 0 1.5rem;
+    }
+
+    .icon{
+        max-width: 2rem;
+    }
+}
+
+@media screen and (min-width:1120px) {
+    #header{
+        padding: 1.5rem 5rem 0 5rem;
+        background-image: url(./images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+    }
+
+    .navigation{
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+    
+    .navigation img{
+        width: 20%;
+        height: 2rem;
+        margin-top: 0.3rem;
+    }
+
+    .navigation button{
+        padding: 0.8rem 4rem;
+        font-size: 1rem;
+    }
+
+   .heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+   }
+
+   .head{
+    padding-top: 4rem;
+    width: 43%;
+    display: block;
+    text-align: start;
+   }
+
+    .headtext{
+        text-align: start;
+        font-size: 2rem;
+    }
+
+    .heading p{
+        text-align: start;
+        font-size: 1.2rem;
+    }
+
+   .heading img{
+    max-width: 52%;
+    padding-bottom: 1.5rem;
+   }
+    
+   .headtext{
+    text-align: start;
+    font-size: 2.7rem;
+   }
+
+   .heading button{
+    font-size: 1.1rem;
+    padding: 0.8rem 3.2rem;
+    margin-top: 1rem;
+   }
+
+   .boxes{
+    padding: 2rem 5rem 15rem 5rem;
+   }
+
+   .card{
+    margin: 2rem 0;
+    padding: 0;
+    width: 98%;
+   }
+
+   .content{
+    margin: 0;
+    margin-left: 10%;
+    padding: 2rem;
+    padding-left: 0;
+    width: 90%;
+    text-align: start;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+   
+   .content-1{
+    margin: 0;
+    margin-left: 10%;
+    padding: 2rem;
+    padding-left: 0;
+    width: 90%;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+
+   .img{
+    width: 32%;
+   }
+
+   .text{
+    width: 48%;
+   }
+
+   .smlcard{
+    width: 55%;
+   }
+
+   .footer{
+    display: flex;
+    justify-content: center;
+   }
+   
+   .contact{
+    margin: 0 0 0 5rem;
+    padding: 0;
+    width: 40%;
+   }
+    
+   .info1{
+    padding-top: 3rem;
+    margin-right: 3rem;
+   }
+
+   .info{
+    margin: 0.5rem 4rem 0 0;
+   }
+
+   .socials {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+   }
+
+   .icons{
+    padding-top: 1rem;
+   }
+
+   .socials p{
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+   }
+}
